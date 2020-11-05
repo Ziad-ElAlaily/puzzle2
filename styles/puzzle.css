@@ -1,0 +1,129 @@
+html,
+body {
+  position: relative;
+}
+.carousel {
+  position: absolute;
+}
+.mainStuff {
+  position: relative;
+}
+.mainStuff .envi {
+  position: absolute;
+  left: 20%;
+  margin-top: 47%;
+  /* top: 50%; */
+  width: 5%;
+  max-width: 5%;
+  z-index: 5;
+  /* display: block; */
+}
+/* .bk {
+  position: fixed;
+  overflow: scroll;
+} */
+.txt {
+  display: none;
+}
+.letterContainer {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+}
+.letter {
+  width: 900px;
+  max-height: 650px;
+}
+.letterText {
+  font-family: "Aladin", cursive;
+  position: absolute;
+  top: 3%;
+  left: 22%;
+  /* font-size: 50px; */
+  font-size: 2.5vw;
+  max-height: 50px;
+}
+.letterText2 {
+  font-family: "Aladin", cursive;
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  width: 90%;
+  font-size: 1vw;
+  max-width: 80%;
+  max-height: 58%;
+  overflow: hidden;
+  /* text-align: left; */
+}
+.end {
+  top: 75%;
+  left: 30%;
+}
+.sign {
+  top: 80%;
+  left: 30%;
+  /* color: #dcc189; */
+  -moz-user-select: text;
+  -khtml-user-select: text;
+  -webkit-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+button.invs {
+  background: transparent;
+  border: none !important;
+  outline: none;
+}
+/* -------------------Slider------------------ */
+.pss {
+  display: none;
+}
+.slidingStatue {
+  position: absolute;
+  top: 92%;
+  right: 58%;
+}
+.sliderss {
+  display: none;
+}
+#form_div {
+  position: absolute;
+  top: 45%;
+  right: 45%;
+  background-color: brown;
+  width: 15%;
+}
+.Correct {
+  color: brown;
+}
+/* ---------------Second------------ */
+.slidingStatue1 {
+  position: absolute;
+  top: 7%;
+  right: 83%;
+}
+.sliderss1 {
+  display: none;
+}
+#form_div1 {
+  position: absolute;
+  top: 55%;
+  right: 25%;
+  background-color: brown;
+  width: 15%;
+}
+.Correct1 {
+  color: brown;
+}
+
+/* --------------Door Open------------ */
+.NextRoom {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  background-color: cornsilk;
+  text-decoration: none;
+}
+.hiders {
+  display: none;
+}

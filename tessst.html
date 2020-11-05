@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Testing</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#btn_submit").click(function (evt) {
+          evt.preventDefault();
+          if ($("#lname").val() === "") {
+            $("#warning_msg").addClass("error_msg");
+          } else {
+            $("#form_id").submit();
+          }
+        });
+      });
+    </script>
+    <style media="screen">
+      .error_msg {
+        display: inline !important;
+        color: red;
+        font-size: 13px;
+        margin-left: 1em !important;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="form_div">
+      <form id="form_id">
+        <fieldset id="fieldset">
+          <div>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" />
+            <p id="warning_msg" style="display: none">
+              You must enter a last name
+            </p>
+          </div>
+        </fieldset>
+        <br />
+        <button type="submit" id="btn_submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

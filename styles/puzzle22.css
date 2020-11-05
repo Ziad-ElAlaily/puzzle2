@@ -1,0 +1,65 @@
+html,
+body {
+  position: relative;
+}
+.bk {
+  position: absolute;
+  /* overflow: hidden; */
+}
+.chestContainer {
+  position: relative;
+}
+
+.chestContainer .closedChest {
+  position: absolute;
+  margin-top: -24.5%;
+  left: 52%;
+  width: 8%;
+}
+.chestContainer .boxContainer {
+  position: absolute;
+  margin-top: -30.5%;
+  left: 58%;
+  width: 7%;
+}
+.chestContainer .boxContainer1 {
+  position: absolute;
+  margin-top: -30.5%;
+  left: 28%;
+  max-width: 1%;
+}
+/* ------chest----- */
+.slidingStatue {
+  position: absolute;
+  top: 57%;
+  right: 43.4%;
+}
+.sliderss {
+  display: none;
+}
+button.invs {
+  background: transparent;
+  border: none !important;
+  outline: none;
+  /* cursor: pointer; */
+  z-index: 99;
+}
+#form_div {
+  position: absolute;
+  top: 45%;
+  right: 45%;
+  background-color: brown;
+  width: 15%;
+}
+.Correct {
+  color: brown;
+}
+/* -----------key---------- */
+.bk .key {
+  position: absolute;
+  top: 10%;
+  left: 30%;
+}
+.last {
+  display: none;
+}
